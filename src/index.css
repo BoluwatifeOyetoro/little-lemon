@@ -29,6 +29,9 @@ a {
 
 .hero {
   background-color: #495E57;
+  /* display: grid;
+  grid-gap: 100px; */
+  /* grid-template-rows: 100px 100px 100px; */
 }
 
 .little {
@@ -72,13 +75,19 @@ button {
 
 .highlight {
   display: grid;
-  grid-gap: 150px;
+  grid-gap: 200px;
+  margin-left: 450px;
+  justify-items: center;
+  align-items: center;
   grid-template-columns: 100px 100px 100px;
 }
 
 .menu {
   height: 300px;
   width: 200px;
+  height: fit-content;
+  border-radius: 16px;
+  background-color: #EDEFEE;
 }
 
 .details {

@@ -1,11 +1,11 @@
 import React from "react";
-//import Lemon from "../images/Logo.svg"
+import Foot from "../images/foot.jpg"
 
 
 function Footer() {
     return (
         <footer className="highlight">
-            {/* <img src={Lemon} alt="Logo" /> */}
+            <img src={Foot} alt="foot" />
             <ul>
             <h4>Doormat Navigation</h4>
                 <li><a href="home.com">Home</a></li>
